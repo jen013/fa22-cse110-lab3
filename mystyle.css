@@ -1,0 +1,21 @@
+body {
+    background-color: rgb(26, 25, 24);
+    color: rgb(179, 177, 184);
+  }
+  
+  h1 {
+    color: white;
+  }
+
+  h2 {
+    color: rgb(202, 202, 202);
+  }
+
+  p {
+    color: grey;
+  }
+
+  a {
+    color:rgb(107, 168, 197)
+  }
+
