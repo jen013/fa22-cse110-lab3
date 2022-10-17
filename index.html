@@ -6,75 +6,113 @@
         <link rel="icon" href="icon.png" type="image/png"/>
     </head>
     <body>
+
         <header>
+
             <h1>Meeting Minutes</h1>
             <p>10/9/2022</p>
-            <nav>
+
+            <nav class="menu">
+                <ul>
+                    <li class="menu"><a href="#">Summary of Agenda</a></li>
+                    <li class="menu"><a href="#">Questions/Concerns</a></li>
+                    <li class="menu"><a href="#">Attendance</a></li>
+                    <li class="menu"><a href="#">Notes</a></li>
+                    <li class="menu"><a href="#">Media</a></li>
+                </ul>
             </nav>
+
         </header>
 
         <main>
+            
             <hr>
-            <h2>Summary of Agenda</h2>
-            <details>
-                <p>
+            <div>
+                <h2>Summary of Agenda</h2>
+                <details>
+                    <summary>
+                        Go over and complete <span>previous meeting</span> topics and start on new ones.
+                    </summary>
+                    <p>
+                        <section>
+                            <h3>Continuation from Last Meeting</h3>
+                            <p>
+                                Continued discussionion on team roles and team organization
+                            </p>
+                            <h3>New Topics</h3>
+                            <p>
+                                Daily schedule and tasks to complete before the end of the week
+                            </p>
+                        </section>
+                    </p>
+                </details>
+            </div>
 
-                </p>
-                <summary>
-                    Go over and complete <span>previous meeting</span> topics and start on new ones.
-                </summary>
-            </details>
-            <h3>Continuation from Last Meeting</h3>
-            <p>
-                Continued discussionion on team roles and team organization
-            </p>
-            <h3>New Topics</h3>
-            <p>
-                Daily schedule and tasks to complete before the end of the week
-            </p>
             <hr>
-            <h2>Questions/Concerns</h2>
-            <ol>
-                <li><b>When</b> are the meetings?</li>
-                <li><b>Where</b> are the meetings taking place?</li>
-                <li><b>What</b> topics will be dicussed?</li>
-            </ol>
+
+            <div>
+                <h2>Questions/Concerns</h2>
+                <ol>
+                    <li><b>When</b> are the meetings?</li>
+                    <li><b>Where</b> are the meetings taking place?</li>
+                    <li><b>What</b> topics will be dicussed?</li>
+                </ol>
+            </div>
+
             <hr>
-            <h2>Check-Ins</h2>
-            <ul>
-                <li>Alice</li>
-                <li>Bob</li>
-                <li>Mary</li>
-                <li>John</li>
-            </ul>
+
+            <div>
+                <h2>Attendance</h2>
+                <ul>
+                    <li>Alice</li>
+                    <li>Bob</li>
+                    <li>Mary</li>
+                    <li>John</li>
+                </ul>
+            </div>
+
             <hr>
-            <h2>Notes</h2>
-            <ul>
-                <li><span>Alice</span> gave the summary of last meeting</li>
-                <li>Roles were given to <span>Bob</span>, <span>Mary</span>, and <span>John</span></li>
-                <li>Bob discussed upcoming tasks</li>
-            </ul>
+
+            <div>
+                <h2>Notes</h2>
+                <ul>
+                    <li><span>Alice</span> gave the summary of last meeting</li>
+                    <li>Roles were given to <span>Bob</span>, <span>Mary</span>, and <span>John</span></li>
+                    <li>Bob discussed upcoming tasks</li>
+                </ul>
+            </div>
+
             <hr>
-            <h2>Media</h2>
-            <h3>Image</h3>
-            <img class="fit-picture"
-                src="/media/image.png"
-                alt="Sample Image">
-            <h3>Video Recording</h3>
-            <video controls width="250">
-                <source src="/media/video.mp4"
-                    type="video/mp4">
-            </video>
-            <h3>Audio Recording</h3>
-            <audio controls src="/media/audio.m4a">
-        </audio>
+
+            <div>
+                <h2>Media</h2>
+                <section>
+                    <h3>Image</h3>
+                    <img class="fit-picture"
+                        src="/screenshots/example.png"
+                        alt="Sample Image">
+                </section>
+
+                <section>
+                    <h3>Video Recording</h3>
+                    <video controls width="250">
+                        <source src="/media/video.mp4"
+                            type="video/mp4">
+                    </video>
+                </section>
+
+                <section>
+                    <h3>Audio Recording</h3>
+                    <audio controls src="/media/audio.m4a">
+                    </audio>
+                </section>
+            </div>
+
         </main>
 
         <footer>
             UCSD FA22
         </footer>
 
-        <nav></nav>
-        <section></section>
     </body>
 </html>
